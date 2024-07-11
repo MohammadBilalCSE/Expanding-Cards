@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #E5E7E9;
+}
+.img_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+.Mimg{
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0.5;
+    transition: flex 0.7s ease-in;
+    margin: 0px 5px;
+    border-radius: 10px;
+    position: relative;
+}
+h3{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.img1{
+    background-image: url('Images/Beach-Image.jpg');
+}
+.img2{
+    background-image: url('Images/Desert-Image.jpg');
+}
+.img3{
+    background-image: url('Images/Palm-Beach-Image.jpg');
+}
+.img4{
+    background-image: url('Images/Plain-Image.jpg');
+}
+.img5{
+    background-image: url('Images/River-Image.jpg');
+}
+.img6{
+    background-image: url('Images/Snow-Mountain-Image.jpg');
+}
+.Mimg.active{ flex: 5; }
+.Mimg.active h3{ opacity: 1; }
+
