@@ -9,8 +9,7 @@ This project demonstrates a smooth expanding card effect where clicking on a car
 
 - **Dynamic Interaction**: Cards expand when clicked.  
 - **Smooth Animations**: Elegant transitions using CSS.  
-- **Responsive Design**: Works across devices.  
-- **Customizable**: Easily replace images or modify styles.  
+- **Responsive Design**: Works across devices. 
 
 
 ## 🔧 Technologies Used  
@@ -27,7 +26,7 @@ This project demonstrates a smooth expanding card effect where clicking on a car
 1. **Clone the repository**:
    
    ```bash
-   git clone https://github.com/your-username/expanding-cards.git
+   git clone https://github.com/MohammadBilalCSE/Expanding-Cards.git
    cd expanding-cards
    ```
 
